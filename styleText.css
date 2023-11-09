@@ -1,0 +1,41 @@
+body {
+  background-image: url('toile.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 100%;
+}
+
+.Back {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 12%;
+ right: 12%;
+ bottom: 0;
+ background-color: white;
+ height: 300%;
+}
+
+h3 {
+  font-family: 'Bodoni MT', sans-serif;
+  font-size: 25px;
+}
+
+.navigation {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #ff0000;
+}
+
+button {
+  background-color: #47d1ff;
+}
